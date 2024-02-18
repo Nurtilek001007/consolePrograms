@@ -3,6 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/consolePrograms.iml" filepath="$PROJECT_DIR$/consolePrograms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kata/kata.iml" filepath="$PROJECT_DIR$/kata/kata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leetcode/leetcode.iml" filepath="$PROJECT_DIR$/leetcode/leetcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tinkoff/spring2024/spring2024.iml" filepath="$PROJECT_DIR$/tinkoff/spring2024/spring2024.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tinkoff/tinkoff.iml" filepath="$PROJECT_DIR$/tinkoff/tinkoff.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xyz/xyz.iml" filepath="$PROJECT_DIR$/xyz/xyz.iml" />
     </modules>
   </component>
 </project>

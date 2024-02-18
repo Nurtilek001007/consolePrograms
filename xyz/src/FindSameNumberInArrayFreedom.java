@@ -1,10 +1,11 @@
+// 09.02.2024 - 16.02.2024
 /**
- * Найти и вывести повторяющиеся значения из массива
+ * Вывести повторяющиеся значения из массива
  */
 
 import java.util.HashSet;
 
-public class FindSameFreedom {
+public class FindSameNumberInArrayFreedom {
     public static void main(String[] args) {
         int[] arr = {5, 3, 4, 5, 3, 7, 8, 3};
         HashSet set = new HashSet();
@@ -16,6 +17,6 @@ public class FindSameFreedom {
                 }
             }
         }
-        System.out.println(set.toString());
+        System.out.println(set);
     }
 }
