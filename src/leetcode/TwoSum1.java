@@ -1,4 +1,5 @@
-// 16.02.2024 - 16.02.2024
+/*  16.02.2024 - 16.02.2024 */
+package leetcode;
 import java.util.Arrays;
 
 public class TwoSum1 {

@@ -1,4 +1,5 @@
-// 04.01.2024 - 04.01.2024
+/*  04.01.2024 - 04.01.2024 */
+package kata;
 import java.util.List;
 import java.util.Scanner;
 
@@ -108,7 +109,7 @@ public class Main {
     }
 
     /**
-     * Этот метод возвращает строковое значение римской цифры, используя класс Enum RomanNumeral.
+     * Этот метод возвращает строковое значение римской цифры, используя класс Enum kata.RomanNumeral.
      */
     public static String arabicToRoman(int number) {
         if (number < 1) {

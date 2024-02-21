@@ -1,8 +1,7 @@
-// 09.02.2024 - 16.02.2024
-/**
- * Вывести повторяющиеся значения из массива
+/*  09.02.2024 - 16.02.2024
+    Вывести повторяющиеся значения из массива
  */
-
+package xyz;
 import java.util.HashSet;
 
 public class FindSameNumberInArrayFreedom {

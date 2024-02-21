@@ -1,3 +1,6 @@
+/*  04.01.2024 - 04.01.2024 */
+package kata;
+
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;

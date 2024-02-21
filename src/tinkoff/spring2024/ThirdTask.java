@@ -1,3 +1,6 @@
+/*  21.02.2024 - 21.02.2024 */
+package tinkoff.spring2024;
+
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Scanner;
