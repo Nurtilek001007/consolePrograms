@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.leetcode75.array_string;
 
 public class GreatestCommonDivisorOfStrings1071 {
     public static void main(String[] args) {
