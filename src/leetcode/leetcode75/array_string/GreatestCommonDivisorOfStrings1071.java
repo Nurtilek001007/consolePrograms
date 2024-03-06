@@ -1,3 +1,5 @@
+/* 05.03.2024 - 06.03.2024
+https://leetcode.com/problems/greatest-common-divisor-of-strings/description/ */
 package leetcode.leetcode75.array_string;
 
 public class GreatestCommonDivisorOfStrings1071 {

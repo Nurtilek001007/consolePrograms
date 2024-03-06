@@ -1,4 +1,5 @@
-/*  16.02.2024 - 16.02.2024 */
+/*  16.02.2024 - 06.03.2024
+https://leetcode.com/problems/two-sum/description/ */
 package leetcode;
 import java.util.Arrays;
 
