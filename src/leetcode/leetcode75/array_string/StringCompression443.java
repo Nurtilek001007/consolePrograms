@@ -2,8 +2,6 @@
 https://leetcode.com/problems/string-compression/description */
 package leetcode.leetcode75.array_string;
 
-import java.util.Arrays;
-
 public class StringCompression443 {
     public static void main(String[] args) {
         StringCompression443 s = new StringCompression443();
