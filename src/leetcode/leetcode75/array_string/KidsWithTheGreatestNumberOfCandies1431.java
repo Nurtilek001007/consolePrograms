@@ -1,4 +1,4 @@
-/* 05.03.2024 - 06.03.2024
+/* 05.03.2024 - 09.03.2024
 https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/description/ */
 package leetcode.leetcode75.array_string;
 
@@ -7,7 +7,7 @@ import java.util.List;
 
 public class KidsWithTheGreatestNumberOfCandies1431 {
     public static void main(String[] args) {
-        int[] candies = {2, 3, 4, 1, 3};
+        int[] candies = {2, 3, 5, 1, 3};
         int extracandies = 3;
         KidsWithTheGreatestNumberOfCandies1431 k = new KidsWithTheGreatestNumberOfCandies1431();
         System.out.println(k.kidsWithCandies(candies, extracandies));
