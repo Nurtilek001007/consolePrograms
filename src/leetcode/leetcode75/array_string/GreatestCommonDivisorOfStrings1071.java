@@ -1,5 +1,6 @@
 /* 05.03.2024 - 06.03.2024
-https://leetcode.com/problems/greatest-common-divisor-of-strings/description/ */
+https://leetcode.com/problems/greatest-common-divisor-of-strings/description/
+ */
 package leetcode.leetcode75.array_string;
 
 public class GreatestCommonDivisorOfStrings1071 {
@@ -16,7 +17,7 @@ public class GreatestCommonDivisorOfStrings1071 {
         return str1.substring(0, gcd);
     }
 
-    private int gcdLength (int str1, int str2) {
+    private int gcdLength(int str1, int str2) {
         return str2 == 0 ? str1 : gcdLength(str2, str1 % str2);
     }
 }

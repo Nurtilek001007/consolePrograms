@@ -1,5 +1,6 @@
 /* 06.03.2024 - 06.03.2024
-https://leetcode.com/problems/product-of-array-except-self/description/ */
+https://leetcode.com/problems/product-of-array-except-self/description/
+ */
 package leetcode.leetcode75.array_string;
 
 import java.util.Arrays;

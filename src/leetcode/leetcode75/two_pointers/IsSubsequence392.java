@@ -1,5 +1,6 @@
 /* 09.03.2024 - 09.03.2024
-https://leetcode.com/problems/is-subsequence/description/ */
+https://leetcode.com/problems/is-subsequence/description/
+*/
 package leetcode.leetcode75.two_pointers;
 
 public class IsSubsequence392 {

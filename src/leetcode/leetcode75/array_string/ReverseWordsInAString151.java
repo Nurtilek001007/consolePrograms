@@ -1,5 +1,6 @@
 /* 06.03.2024 - 06.03.2024
-https://leetcode.com/problems/reverse-words-in-a-string/description/ */
+https://leetcode.com/problems/reverse-words-in-a-string/description/
+ */
 package leetcode.leetcode75.array_string;
 
 import java.util.Arrays;

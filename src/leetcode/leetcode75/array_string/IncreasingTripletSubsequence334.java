@@ -1,5 +1,6 @@
 /* 07.03.2024 - 07.03.2024
-https://leetcode.com/problems/increasing-triplet-subsequence/description */
+https://leetcode.com/problems/increasing-triplet-subsequence/description
+ */
 package leetcode.leetcode75.array_string;
 
 public class IncreasingTripletSubsequence334 {
