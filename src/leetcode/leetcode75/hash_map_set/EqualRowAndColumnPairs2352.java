@@ -1,4 +1,4 @@
-/* 01.04.2024 - 01.04.2024
+/* 01.04.2024 - 03.04.2024
 https://leetcode.com/problems/equal-row-and-column-pairs/
  */
 package leetcode.leetcode75.hash_map_set;
