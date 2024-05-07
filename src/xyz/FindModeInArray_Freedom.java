@@ -2,7 +2,7 @@
     Вывести моду (часто встречаемое значение) из массива. Писать ручкой на бумаге.
  */
 package xyz;
-public class FindModeInArrayFreedom {
+public class FindModeInArray_Freedom {
     public static void main(String[] args) {
         int[] arr = {5, 3, 4, 5, 3, 7, 8, 3, 5, 3};
         int mode = 0, c = 0, index = 0;
