@@ -26,12 +26,30 @@ public class Task4 {
         }
         int[][] array = listOfIntArrays.toArray(new int[listOfIntArrays.size()][]);
 
-        System.out.println("Найденные числа в виде вложенного массива:");
-        for (int[] ints : array) {
-            for (int anInt : ints) {
-                System.out.print(anInt + " ");
+//        System.out.println("Найденные числа в виде вложенного массива:");
+//        for (int[] ints : array) {
+//            for (int anInt : ints) {
+//                System.out.print(anInt + " ");
+//            }
+//            System.out.println();
+//        }
+
+        int counter = 0, result = 0;
+        while (counter < n) {
+            result++;
+            for (int i = 0; i < array.length; i++) {
+                if (array[i][0] == 0) counter++;
+                else {
+                    int count = 0;
+                    for (int j = 1; j < array[i].length; j++) {
+                        if (array[array[i][j] - 1][0] == 0) count++;
+                    }
+                    if (count == array[i][0]) array[i][0] = 0;
+                }
             }
-            System.out.println();
+            if (counter == n) break;
+            else counter = 0;
         }
+        System.out.println(result);
     }
 }
