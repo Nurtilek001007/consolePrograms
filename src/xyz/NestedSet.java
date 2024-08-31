@@ -2,7 +2,7 @@ package xyz;
 
 import java.util.*;
 
-public class UnlimitedNestedValues {
+public class NestedSet {
     public static void main(String[] args) {
         List<Set<Integer>> listOfSets = new ArrayList<>();
         for (int i = 0; i < 5; i++) {  // Предположим, что мы хотим добавить 5 Set
