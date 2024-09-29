@@ -1,29 +1,39 @@
-// leetcode 443
+// leetcode 443 похожая задача
 package yandex.tashkent2024.first_interview;
 
 public class StringCompression {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         StringCompression str = new StringCompression();
-        char[] chars = {'a', 'a', 'b', 'b', 'c', 'c', 'c'};
-        System.out.println(str.compress(chars));
+        String s = "AAAABBBFFFDDDD";
+        System.out.println(str.compress(s));
     }
 
-    public int compress(char[] chars) {
-        int i = 0, res = 0;
-        while (i < chars.length) {
-            int groupLength = 1;
-            while (i + groupLength < chars.length && chars[i + groupLength] == chars[i]) {
-                groupLength++;
-            }
-            chars[res++] = chars[i];
-            if (groupLength > 1) {
-                for (char c : Integer.toString(groupLength).toCharArray()) {
-                    chars[res++] = c;
-                }
-            }
-            i += groupLength;
+    public String compress(String s) throws Exception {
+        if (s.isEmpty()) {
+            return "";
         }
-        return res;
+        if (!s.matches("[A-Z]+")) {
+            throw new Exception("String has another symbol from alphabet");
+        }
+        char c = s.charAt(0);
+        int cnt = 0;
+        StringBuilder stringBuilder = new StringBuilder();
+        for (char ch: s.toCharArray()) {
+            if (ch == c) {
+                cnt++;
+            } else {
+                stringBuilder.append(c);
+                stringBuilder.append(cnt);
+                c = ch;
+                cnt = 1;
+            }
+        }
+        if (cnt > 1) {
+            stringBuilder.append(c);
+            stringBuilder.append(cnt);
+        } else {
+            stringBuilder.append(c);
+        }
+        return stringBuilder.toString();
     }
-
 }
